@@ -1,0 +1,27 @@
+{
+  "name": "react-ape-photo-gallery",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve"
+  },
+  "engines": {
+    "node": ">=16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.17.8",
+    "@babel/plugin-proposal-class-properties": "7.3.0",
+    "@babel/preset-env": "7.16.11",
+    "@babel/preset-flow": "7.16.7",
+    "@babel/preset-react": "7.16.7",
+    "@babel/register": "7.17.7",
+    "@webpack-cli/serve": "1.6.1",
+    "webpack": "5.70.0",
+    "react-ape": "0.0.9",
+    "react": "18.0.0",
+    "webpack-cli": "4.9.2",
+    "webpack-dev-server": "4.7.4",
+    "html-webpack-plugin": "5.5.0"
+  }
+}
