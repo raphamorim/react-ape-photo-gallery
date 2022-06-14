@@ -5,7 +5,7 @@ import {
   Image,
   Dimensions,
   StyleSheet,
-} from 'react-ape';
+} from '../../react-ape/reactApeEntry';
 
 const {width} = Dimensions.get('screen');
 
