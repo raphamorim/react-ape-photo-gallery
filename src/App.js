@@ -7,7 +7,7 @@ import {
   StyleSheet,
   registerComponent,
   withNavigation
-} from '../../react-ape/reactApeEntry';
+} from 'react-ape';
 
 // import Spinner from './Spinner';
 import Sidebar from './Sidebar';

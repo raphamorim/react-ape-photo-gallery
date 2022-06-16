@@ -5,9 +5,9 @@ import {
   Image,
   Dimensions,
   StyleSheet,
-} from '../../react-ape/reactApeEntry';
+} from 'react-ape';
 
-const {width} = Dimensions.get('screen');
+const {width} = Dimensions.get('window');
 
 const styles = StyleSheet.create({
   slideshow: {
@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     left: 280,
     top: 0,
     backgroundColor: '#080808',
-    width: width,
+    width: 1000,
     height: 420,
     overflow: 'hidden',
   },

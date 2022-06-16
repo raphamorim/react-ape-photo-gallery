@@ -5,7 +5,7 @@ import {
   Image,
   Dimensions,
   StyleSheet,
-} from '../../react-ape/reactApeEntry';
+} from 'react-ape';
 
 const {height} = Dimensions.get('screen');
 
@@ -27,8 +27,8 @@ const styles = StyleSheet.create({
     top: 520,
   },
   image: {
-    height: 328,
-    width: 248,
+    height: 228,
+    width: 148,
   },
 });
 

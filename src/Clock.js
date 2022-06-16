@@ -7,7 +7,7 @@ import {
   Dimensions,
   StyleSheet,
   registerComponent,
-} from '../../react-ape/reactApeEntry';
+} from 'react-ape';
 
 const {width, height} = Dimensions.get('screen');
 

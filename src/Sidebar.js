@@ -6,9 +6,9 @@ import {
   StyleSheet,
   registerComponent,
   withFocus,
-} from '../../react-ape/reactApeEntry';
+} from 'react-ape';
 
-const {height} = Dimensions.get('screen');
+const {height} = Dimensions.get('window');
 
 const styles = StyleSheet.create({
   sidebar: {
