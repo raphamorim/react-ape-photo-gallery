@@ -34,9 +34,9 @@ const styles = StyleSheet.create({
 
 // These images are under creative commons CC0
 const list = [
-  'pexels-michelle-guimarães-3648269.jpg',
-  'pexels-raphael-amaral-2869354.jpg',
-  'pexels-karyme-frança-1458036.jpg',
+  'https://raphamorim.io/react-ape-photo-gallery/public/pexels-michelle-guimarães-3648269.jpg',
+  'https://raphamorim.io/react-ape-photo-gallery/public/pexels-raphael-amaral-2869354.jpg',
+  'https://raphamorim.io/react-ape-photo-gallery/public/pexels-karyme-franca-1458036.jpg',
 ];
 
 class Grid extends Component {

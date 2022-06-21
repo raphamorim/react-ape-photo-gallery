@@ -32,7 +32,6 @@ const styles = StyleSheet.create({
 class Item extends React.Component {
   render() {
     const { focused, idx, text, setFocus } = this.props;
-    console.log('focusableitem', setFocus, focused);
     return (
       <View style={{...styles.container, top: idx}}>
         <Text style={{
